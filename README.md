@@ -29,6 +29,14 @@ own tools before use.
 | `open-in-admin.js` | Reads an org ID off the page, opens it in your internal admin console. `CONFIG`: ID selector + admin URL. |
 | `open-in-bi-dashboard.js` | Opens your BI dashboard pre-filtered by org ID read off the page. `CONFIG`: ID selector + dashboard URL. |
 | `open-in-bi-dashboard-by-account.js` | Same, filtered by account name instead. `CONFIG`: name selector + dashboard URL. |
+| `table-to-csv.js` | Converts any HTML table to a downloadable CSV. Prompts when multiple tables exist. |
+| `extract-emails.js` | Scrapes and dedupes every email address on the page into a copyable list. |
+| `js-error-catcher.js` | Live overlay capturing JS errors and `console.error` output. PoC debugging. |
+| `storage-inspector.js` | Dumps cookies, localStorage, and sessionStorage into a readable overlay. |
+| `json-formatter.js` | Pretty-prints raw JSON responses in the page. |
+| `qr-code-page.js` | QR code for the current URL — scan to open it on your phone. |
+| `copy-markdown-link.js` | Copies the page as a `[title](url)` Markdown link. |
+| `link-cleaner.js` | Strips tracking params (`utm_*`, `fbclid`, `gclid`…) and copies the clean URL. |
 
 ## Notes
 
