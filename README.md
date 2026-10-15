@@ -25,7 +25,7 @@ own tools before use.
 | `kb-search.js` | Prompts for a query, searches your help center. `CONFIG`: help center URL. |
 | `tech-stack-lookup.js` | Opens a BuiltWith report for the current page. Pre-call recon. |
 | `linkedin-search.js` | Prompts for a query, runs LinkedIn universal search. Mid-discovery stakeholder hunting. |
-| `get-session-url.js` | Grabs the current session replay URL from the on-page snippet API into a copyable prompt. `CONFIG`: swap `window.FS` for your replay provider. |
+| `get-session-url.js` | Grabs the current session replay URL into a copyable prompt. Auto-detects the provider. `CONFIG`: add your provider to the list. |
 | `open-in-admin.js` | Reads an org ID off the page, opens it in your internal admin console. `CONFIG`: ID selector + admin URL. |
 | `open-in-bi-dashboard.js` | Opens your BI dashboard pre-filtered by org ID read off the page. `CONFIG`: ID selector + dashboard URL. |
 | `open-in-bi-dashboard-by-account.js` | Same, filtered by account name instead. `CONFIG`: name selector + dashboard URL. |

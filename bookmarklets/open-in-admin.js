@@ -7,7 +7,7 @@
 
 /* CONFIG */
 var ID_SELECTOR = '.truncate'; // CSS selector for the element holding the org/customer ID
-var ADMIN_URL = 'https://webber.internal.fullstory.com/admin/orgs/'; // trailing slash
+var ADMIN_URL = 'https://admin.YOUR-COMPANY.internal/customers/'; // trailing slash
 
 (function () {
   var el = document.querySelector(ID_SELECTOR);

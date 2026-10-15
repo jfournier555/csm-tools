@@ -3,7 +3,7 @@
  * Point KB_SEARCH_BASE at your own help center. */
 
 /* CONFIG — your help center's search URL (no trailing params) */
-var KB_SEARCH_BASE = 'https://help.fullstory.com/hc/en-us/search';
+var KB_SEARCH_BASE = 'https://help.YOUR-COMPANY.com/hc/en-us/search';
 
 (function () {
   var q = prompt('Search the knowledge base:');

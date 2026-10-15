@@ -8,7 +8,7 @@
 
 /* CONFIG */
 var NAME_SELECTOR = '.truncate.db'; // CSS selector for the element holding the account name
-var DASHBOARD_URL = 'https://fullstory.looker.com/dashboards/135'; // your dashboard
+var DASHBOARD_URL = 'https://bi.YOUR-COMPANY.com/dashboards/YOUR-DASHBOARD-ID'; // your dashboard
 
 (function () {
   var el = document.querySelector(NAME_SELECTOR);
