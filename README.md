@@ -37,6 +37,10 @@ own tools before use.
 | `csm/link-cleaner.js` | Strips tracking params (`utm_*`, `fbclid`, `gclid`…) and copies the clean URL. |
 | `csm/qr-code-page.js` | QR code for the current URL — scan to open it on your phone. |
 | `csm/table-to-csv.js` | Converts any HTML table to a downloadable CSV. Prompts when multiple tables exist. |
+| `csm/spotlight.js` | Dims the page except the element under your cursor. Guide eyes on live calls. ESC to exit. |
+| `csm/draw-on-page.js` | Freehand annotation overlay — circle and underline things on screenshares. ESC to exit. |
+| `csm/font-size-bump.js` | Steps page zoom 100% → 125% → 150% per click. Readable dashboards on calls. |
+| `csm/pii-check.js` | Outlines form fields and email-containing elements before you share your screen. Run again to clear. |
 
 ### SE / CSE — technical
 
